@@ -1,0 +1,64 @@
+﻿
+/* title */
+.title{
+	margin:0px;
+	color:#000;
+	margin-top:10px;
+}
+
+/*information*/
+#information{
+	margin:0px;
+	margin-top:15px;
+}
+#information ul{
+	list-style:none;
+	font-size:14px;
+	margin-left:-40px;
+}
+#information ul li{
+	line-height:30px;
+}
+#information a{
+	color:#555;
+	text-decoration:none;
+}
+#information a:hover{
+	color:#999;
+}
+
+/* partner */
+#partner ul{
+	list-style:none;
+}
+#partner ul li{
+	float:left;
+}
+
+/* bussiness */
+#bussiness{
+	margin:0px;
+	margin-top:5px;
+}
+#bussiness a{
+	text-decoration:none;
+	color:#fff;
+}
+#bussiness a:hover{
+	text-decoration:none;
+	color:#888;
+}
+.span1{
+	margin-top:-40px; 
+	font-size:16px;
+}
+.bottom{
+	margin-bottom:20px;
+}
+.p1{
+	line-height:35px;
+}
+.font16{
+	font-size:16px;
+}
+

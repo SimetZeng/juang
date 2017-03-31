@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>帮助中心--常见问题</title>
+		
+<!-- Favicons
+	================================================== -->	
+		<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+<!-- bootstrap
+	================================================== -->
+		<link rel="stylesheet" href="../assets/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="../assets/fonts/font-awesome/css/font-awesome.min.css">
+<!-- Stylesheet
+	================================================== -->
+		<link rel="stylesheet" href="../css/help.css">
+		<link rel="stylesheet" href="../css/login.css">
+		<link rel="stylesheet" href="../css/base.css"/>
+		<link rel="stylesheet" href="../css/buttons.css"/>
+		<link rel="stylesheet" href="../css/pgwmenu.css"/>
+		<link rel="stylesheet" href="../css/responsive-nav.css">
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+		<script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
+		
+		<script type="text/javascript"  src="../js/common.js"></script>
+		<script type="text/javascript" src="../js/pgwmenu.min.js"></script>
+		<script type="text/javascript"  src="../js/responsive-nav.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.pgwMenu').pgwMenu();
+			});
+		</script>
+		<script type="text/javascript">
+			$(function(){ 
+				var heightLeft= $("#Left").height(); 
+				var heightRight= $("#Right").height(); 
+				if (heightLeft > heightRight) 
+				{ 
+					$("#Right").height(heightLeft); 
+				} 
+				else 
+				{ 
+					$("#Left").height(heightRight); 
+				} 
+			}); 
+		</script>
+	</head>
+
+	<body lang="zh-CN">
+<!-- menu -->
+		<div id="menu" class="row nav navbar navbar-default" style="background:#074777;">
+			<div class="col-lg-2"></div>
+			<div class="container"> 
+				<div class="navbar-header col-lg-8 navbar-left">
+					<a class="navbar-brand" href="index.html">你好，欢迎来到聚昂商公司！</a> 
+				</div>
+				<ul class="nav navbar-nav col-lg-2 navbar-right">
+					<li><a href="login.htm">登录</a></li>
+					<li><a href="register.htm">注册</a></li>
+				</ul>
+			</div>
+		</div>
+<!-- logo and nav -->
+		<div class="row grid" id="logo">
+			<div class="col-lg-2"></div>
+			<div class="col-lg-10">
+				<ul class="pgwMenu">
+					<li><img src="../images/LoGo.jpg"/></li>
+					<li><a href="../index.htm">首页</a></li>
+					<li><a href="introduce.htm">业务介绍</a></li>
+					<li><a href="jiameng.htm">加盟代理</a></li>
+					<li><a href="cooperation.htm">招商合作</a></li>
+					<li><a href="partner.htm">合作伙伴</a></li>
+					<li><a href="help.htm">帮助中心</a></li>
+					<li><a href="about-us.htm">关于我们</a></li>
+				</ul>
+			</div>
+		</div>
+<!-- images -->
+		<div id="images"><img src="../images/help.jpg" class="img-responsive" alt="Responsive image"/></div>
+<!-- show information -->	
+		<!-- introduce -->
+		<div class="row grid" id="main">
+			<div class="col-lg-2"></div>
+			<div class="col-lg-2 col-sm-4" id="Left">
+				<p class="p1">帮助中心</p>
+				<a href="help.htm"><p class="p2"><i class="fa fa-caret-right"></i> 问题反馈</p></a>
+				<a href="#"><p class="p5"><i class="fa fa-caret-right"></i> 常见问题</p></a>
+			</div>
+			<div class="col-lg-7 col-sm-12 bottom" id="Right">
+				<p class="top"><span class="span2"><img src="../images/back.jpg"/> &nbsp;首页</span> &nbsp;＞ &nbsp;<span class="span4">帮助中心</span> &nbsp;＞ &nbsp;<span class="span3">常见问题</span></p>
+				<div class="col-lg-5 p4 borderright"><img src="../images/ask.png"/> 在充值时号码不小心输错怎么办？是否可退</div>
+				<div class="col-lg-5 p4"><img src="../images/ask.png"/> 充值失败怎么退？怎么查询到退款记录？</div>
+				<div class="col-lg-5 p4 borderright borderbottom"><img src="../images/answer.png"/> 你好！您得闲征得被充号码主人的同意，然后到营业厅走过调帐手续，接着打电话给客服，客服会帮您办理好接下来的手续的。</div>
+				<div class="col-lg-5 p4 borderbottom"><img src="../images/answer.png"/> 你好！您可以致电给我们的客服，也可以自行登录我们的网站进入个人中心，里面会有退款的详情。</div>
+				<div class="col-lg-5 p4 borderright"><img src="../images/ask.png"/> 电信手机怎么充值？</div>
+				<div class="col-lg-5 p4"><img src="../images/ask.png"/> IPAD可以用天翼3G无线上网卡吗？</div>
+				<div class="col-lg-5 p4 borderright borderbottom"><img src="../images/answer.png"/> 您可以通过中国电信欢go网、购买11888充值付费卡或者营业厅等途径给您的号码进行充值交费。更多疑问可添加客服QQ8000100000为好友获得帮助。</div>
+				<div class="col-lg-5 p4 borderbottom"><img src="../images/answer.png"/> 由于IPAD上并没有USB接口，所以无法直接使用天翼3G无线上网卡进行商务。如您需要使用IPAD来上网，建议您可购买一个3G无线路由器。</div>
+				<div class="col-lg-5 p4 borderright"><img src="../images/ask.png"/> 固定电话拨打本地电话怎么收费？</div>
+				<div class="col-lg-5 p4"><img src="../images/ask.png"/> 如何查询我家附近能不能装宽带？</div>
+				<div class="col-lg-5 p4 borderright borderbottom"><img src="../images/answer.png"/> 广州市区固定电话拨打本地固定电话每天通话前三分钟共0.22元，以后按每分钟0.11元计费。</div>
+				<div class="col-lg-5 p4 borderbottom"><img src="../images/answer.png"/> 您好，根据您提供的地址我们暂时无法确认是否有线路资源，需要实际办理安装才能给您提供最准确的信息。</div>
+				<div class="col-lg-5 p4 borderright"><img src="../images/ask.png"/> 我的快宽带能不能迁移到外地使用？</div>
+				<div class="col-lg-5 p4"><img src="../images/ask.png"/> 如何查号码的开通了哪些基础业务功能？</div>
+				<div class="col-lg-5 p4 borderright borderbottom"><img src="../images/answer.png"/> 宽带迁移范围只能在所在地市，暂时、未提供宽带迁移业务，建议您可以拨打当地10000号咨询重新办理天翼宽带的事宜。</div>
+				<div class="col-lg-5 p4 borderbottom"><img src="../images/answer.png"/> 您可以登录欢go网站选择“费用咨询-我的套餐-我的订购业务”查询号码的基础业务功能的开通情况。</div>
+				<div class="col-lg-5 p4 borderright"><img src="../images/ask.png"/> 在充值时号码不小心输错怎么办？是否可退</div>
+				<div class="col-lg-5 p4"><img src="../images/ask.png"/> 充值失败怎么退？怎么查询到退款记录？</div>
+				<div class="col-lg-5 p4 borderright borderbottom"><img src="../images/answer.png"/> 你好！您得闲征得被充号码主人的同意，然后到营业厅走过调帐手续，接着打电话给客服，客服会帮您办理好接下来的手续的。</div>
+				<div class="col-lg-5 p4 borderbottom"><img src="../images/answer.png"/> 你好！您可以致电给我们的客服，也可以自行登录我们的网站进入个人中心，里面会有退款的详情。</div>
+				<div class="col-lg-5 p4 borderright"><img src="../images/ask.png"/> 在充值时号码不小心输错怎么办？是否可退</div>
+				<div class="col-lg-5 p4"><img src="../images/ask.png"/> 充值失败怎么退？怎么查询到退款记录？</div>
+				<div class="col-lg-5 p4 borderright borderbottom"><img src="../images/answer.png"/> 你好！您得闲征得被充号码主人的同意，然后到营业厅走过调帐手续，接着打电话给客服，客服会帮您办理好接下来的手续的。</div>
+				<div class="col-lg-5 p4 borderbottom"><img src="../images/answer.png"/> 你好！您可以致电给我们的客服，也可以自行登录我们的网站进入个人中心，里面会有退款的详情。</div>
+			
+			</div>
+		</div>
+<!-- banner -->
+		<div id="banner" class="img-responsive row grid" alt="Responsive image">
+			<div class="col-lg-2"></div>
+			<div class="col-lg-9">
+				<ul>
+					<li class="span"><strong>公司简介</strong> COMPANY PROFILE</li>
+					<li class="p">聚昂电子商务有限公司前身成立于2010年，从事通信产品的零售和批发，2015年自主研发了聚昂电子商务平台。</li>
+					<li class="p">公司目前成熟的项目有话费充值、游戏充值、支付宝账号充值、运营号码批发等，充值销售量位于全国同行业第三名。目前公司主营项目进一步扩大，囊括了手机配件、品牌手机、电脑配件及汽车保险、P2P金融等，品种不断丰富，涵盖范围越来越广泛。手拉手通过功能齐全、操作方便、产品多元化、用户覆盖面广、经营方式灵活的O2O电子商务平台，旨在为企业搭建扁平化的渠道，为客户提供高性价比的商品。</li>		
+					<li class="text-right"><a href="about-us.htm">more>></a></li>
+				</ul>
+			</div>
+			<div class="col-lg-1"></div>
+		</div>
+<!-- footer -->
+		<div id="footer">
+			<div class="container">
+				<div class="fnav">
+					<ul>
+						<li>友情链接： 
+							<a href="https://www.alipay.com/">支付宝</a>&nbsp;  
+							<a href="http://www.paipai.com/">拍拍</a>&nbsp;
+							<a href="https://www.juhe.cn/docs/api/id/88">游戏充值</a>&nbsp;
+							<a href="http://www.10086.cn/gd/index_200_200.html">中国移动通信</a>&nbsp;
+							<a href="http://www.chinaunicom.com.cn/">中国联通</a>&nbsp;  
+							<a href="http://www.189.cn/">中国电信</a>&nbsp;
+							<a href="https://www.tmall.com/?&spm=a1z15.419.3219.9079&ad_id=1001315559c2c043608f&jlogid=a23111424d6be5">天猫商城</a>&nbsp;
+						</li>
+						<li>Copyright &copy; 2015  All Rights Reserved &nbsp;&nbsp;聚昂电子商务有限公司版权所有</li>
+						<li>公司地址：广州市天河路365号天俊阁1202 &nbsp;&nbsp;电话：020 - 38812035</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

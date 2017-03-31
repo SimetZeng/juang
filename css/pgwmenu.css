@@ -1,0 +1,114 @@
+/**
+ * PgwMenu - Version 1.0
+ *
+ * Copyright 2014, Jonathan M. Piat
+ * http://pgwjs.com - http://pagawa.com
+ *
+ * Released under the GNU GPLv3 license - http://opensource.org/licenses/gpl-3.0
+ */
+.pgwMenu {
+    background:;
+    position: relative;
+    list-style: none;
+}
+
+.pgwMenu.light {
+    background: #555;
+}
+
+.pgwMenu ul {
+    list-style: none;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+}
+
+.pgwMenu ul.mobile {
+    background: #555;
+}
+
+.pgwMenu.light ul.mobile {
+    background: #555;
+}
+
+.pgwMenu ul.mobile li {
+    display: block;
+    clear: both;
+    width: 100%;
+	background-color:#EDEDED;
+	border:1px solid #fff;
+}
+
+.pgwMenu li {
+    float: left;
+	margin-right:20px;
+	font-size:20px;
+}
+
+.pgwMenu a{
+    display: block;
+    color: #555;
+    line-height: 50px;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.pgwMenu.light a {
+    color: #000;
+}
+
+.pgwMenu a.selected {
+    background: #777;
+}
+
+.pgwMenu.light a.selected {
+    background: #bbb;
+}
+
+.pgwMenu li a:hover{
+    text-decoration: none;border-bottom-width: thick;border-bottom-style: solid;border-bottom-color:#e29216;
+}
+
+.pgwMenu.light li a:hover{
+    background: #c5c5c5;
+}
+
+.pgwMenu .pmDropDown {
+    display: none;
+}
+@media screen and (min-width: 10em){
+.pgwMenu .pmDropDown a {
+    display: inline-block;
+    background: #777;
+}
+
+.pgwMenu .pmDropDown a.active {
+    background: #666;
+}
+
+.pgwMenu.light .pmDropDown a {
+    background: #c5c5c5;
+}
+
+.pgwMenu.light .pmDropDown a.active {
+    background: #bbb;
+}
+
+.pgwMenu .pmDropDown span.icon,
+.pgwMenu .pmDropDown span.white {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAABZ0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMDvo9WkAAABKSURBVEhL7ZOxDQAwCMN6O4/T0tmjsxHJDB4yROJ0dz3s1BRHEi2OTREBpQFKA5QGKA3m7IP8RKeIgNIApQFKA5QGc/ZBfkJTdF0oUafLBAFNbAAAAABJRU5ErkJggg==) no-repeat;
+    display: block;
+    height: 22px;
+    width: 22px;
+    margin: 9px 5px;
+}
+
+.pgwMenu.light .pmDropDown span.icon,
+.pgwMenu .pmDropDown span.black {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOvgAADr4B6kKxwAAAABZ0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMDvo9WkAAABpSURBVEhL7ZPLCcAwDEM9jefI/ks1Hyj2QbiGSLcKHggl8sEktjTc/WGyZxo6YKAbrFzFoav3/hdhmsrlijBN5XJFmKZyuSJMU7lcsfV/kIN0FRJgyACGDGDIAIYMpK8CHt6iG6xZhY0JIJ+6AHGbUFsAAAAASUVORK5CYII=) no-repeat;
+    display: block;
+    height: 22px;
+    width: 22px;
+    margin: 9px 5px;
+}
+}

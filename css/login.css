@@ -1,0 +1,77 @@
+﻿a:hover{text-decoration:none;}
+
+.btn-social{position:relative;padding-left:44px;text-align:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.btn-social>:first-child{position:absolute;left:0;top:0;bottom:0;width:32px;line-height:34px;font-size:1.6em;text-align:center;border-right:1px solid rgba(0,0,0,0.2)}
+.btn-social.btn-lg{padding-left:61px}.btn-social.btn-lg :first-child{line-height:45px;width:45px;font-size:1.8em}
+.btn-social.btn-sm{padding-left:38px}.btn-social.btn-sm :first-child{line-height:28px;width:28px;font-size:1.4em}
+.btn-social.btn-xs{padding-left:30px}.btn-social.btn-xs :first-child{line-height:20px;width:20px;font-size:1.2em}
+.btn-social-icon{position:relative;padding-left:44px;text-align:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;height:34px;width:34px;padding:0}.btn-social-icon>:first-child{position:absolute;left:0;top:0;bottom:0;width:32px;line-height:34px;font-size:1.6em;text-align:center;border-right:1px solid rgba(0,0,0,0.2)}
+.btn-social-icon.btn-lg{padding-left:61px}.btn-social-icon.btn-lg :first-child{line-height:45px;width:45px;font-size:1.8em}
+.btn-social-icon.btn-sm{padding-left:38px}.btn-social-icon.btn-sm :first-child{line-height:28px;width:28px;font-size:1.4em}
+.btn-social-icon.btn-xs{padding-left:30px}.btn-social-icon.btn-xs :first-child{line-height:20px;width:20px;font-size:1.2em}
+.btn-social-icon :first-child{border:none;text-align:center;width:100% !important}
+.btn-social-icon.btn-lg{height:45px;width:45px;padding-left:0;padding-right:0}
+.btn-social-icon.btn-sm{height:30px;width:30px;padding-left:0;padding-right:0}
+.btn-social-icon.btn-xs{height:22px;width:22px;padding-left:0;padding-right:0}
+
+
+.btn-qq{color:#fff;background-color:#3b5998;border-color:rgba(0,0,0,0.2)}.btn-qq:hover,.btn-qq:focus,.btn-qq:active,.btn-qq.active,.open>.dropdown-toggle.btn-qq{color:#fff;background-color:#2d4373;border-color:rgba(0,0,0,0.2)}
+.btn-qq:active,.btn-qq.active,.open>.dropdown-toggle.btn-qq{background-image:none}
+.btn-qq.disabled,.btn-qq[disabled],fieldset[disabled] .btn-qq,.btn-qq.disabled:hover,.btn-qq[disabled]:hover,fieldset[disabled] .btn-qq:hover,.btn-qq.disabled:focus,.btn-qq[disabled]:focus,fieldset[disabled] .btn-qq:focus,.btn-qq.disabled:active,.btn-qq[disabled]:active,fieldset[disabled] .btn-qq:active,.btn-qq.disabled.active,.btn-qq[disabled].active,fieldset[disabled] .btn-qq.active{background-color:#3b5998;border-color:rgba(0,0,0,0.2)}
+.btn-qq .badge{color:#3b5998;background-color:#fff}
+
+
+.btn-wechat{color:#fff;background-color:#dd4b39;border-color:rgba(0,0,0,0.2)}.btn-wechat:hover,.btn-wechat:focus,.btn-wechat:active,.btn-wechat.active,.open>.dropdown-toggle.btn-wechat{color:#fff;background-color:#c23321;border-color:rgba(0,0,0,0.2)}
+.btn-wechat:active,.btn-wechat.active,.open>.dropdown-toggle.btn-wechat{background-image:none}
+.btn-wechat.disabled,.btn-wechat[disabled],fieldset[disabled] .btn-wechat,.btn-wechat.disabled:hover,.btn-wechat[disabled]:hover,fieldset[disabled] .btn-wechat:hover,.btn-wechat.disabled:focus,.btn-wechat[disabled]:focus,fieldset[disabled] .btn-wechat:focus,.btn-wechat.disabled:active,.btn-wechat[disabled]:active,fieldset[disabled] .btn-wechat:active,.btn-wechat.disabled.active,.btn-wechat[disabled].active,fieldset[disabled] .btn-wechat.active{background-color:#dd4b39;border-color:rgba(0,0,0,0.2)}
+.btn-wechat .badge{color:#dd4b39;background-color:#fff}
+
+
+.btn-weibo{color:#fff;background-color:#55acee;border-color:rgba(0,0,0,0.2)}.btn-weibo:hover,.btn-weibo:focus,.btn-weibo:active,.btn-weibo.active,.open>.dropdown-toggle.btn-weibo{color:#fff;background-color:#2795e9;border-color:rgba(0,0,0,0.2)}
+.btn-weibo:active,.btn-weibo.active,.open>.dropdown-toggle.btn-weibo{background-image:none}
+.btn-weibo.disabled,.btn-weibo[disabled],fieldset[disabled] .btn-weibo,.btn-weibo.disabled:hover,.btn-weibo[disabled]:hover,fieldset[disabled] .btn-weibo:hover,.btn-weibo.disabled:focus,.btn-weibo[disabled]:focus,fieldset[disabled] .btn-weibo:focus,.btn-weibo.disabled:active,.btn-weibo[disabled]:active,fieldset[disabled] .btn-weibo:active,.btn-weibo.disabled.active,.btn-weibo[disabled].active,fieldset[disabled] .btn-weibo.active{background-color:#55acee;border-color:rgba(0,0,0,0.2)}
+.btn-weibo .badge{color:#55acee;background-color:#fff}
+
+
+
+.form-horizontal .control-label { padding-top: 0; }
+.form-horizontal.templatemo-payment-form .radio.templatemo-no-padding-top {	padding-top: 0; }
+.control-wrapper { position: relative; padding-left: 30px;}
+.control-wrapper label.fa-label { position: absolute; left: 4px; top: 6px;}
+.form-group:last-child { margin-bottom: 0; }
+.form-horizontal .control-label { margin-bottom: 10px; }
+.table { margin-bottom: 0; }
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, 
+.table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td { vertical-align: middle;}
+.templatemo-form-list-container { max-width: 600px; }
+.templatemo-input-icon-container { position: relative; }
+.templatemo-input-icon-container .fa { color: gray; position: absolute; left: 10px; top: 10px;}
+.templatemo-input-icon-container input, 
+.templatemo-input-icon-container textarea { padding-left: 30px;}
+.templatemo-container { background-color: rgba(255,255,255,0.8); border: 1px solid #dedede; border-radius: 8px; margin: 0 auto; padding: 30px;}
+.templatemo-bg-gray { background-color: #eee; }
+.templatemo-bg-gray h1 { color: rgb(74, 164, 180); }
+.templatemo-bg-image-1 { background-color: rgb(60,60,60); background-image: url(../images/templatemo-bg-1.jpg);	}
+.templatemo-bg-image-2 {background-color: rgb(70, 90, 40);background-image: url(../images/templatemo-bg-2.jpg);}
+.templatemo-bg-image-1, .templatemo-bg-image-2 {background-repeat: no-repeat;background-position: center center;background-attachment: fixed;	}
+.templatemo-bg-image-1, .templatemo-bg-image-2 { background-size: cover; }
+.font-size-small { font-size: 0.8em; }
+.margin-bottom-15 {	margin-bottom: 15px; }
+.margin-bottom-30 {	margin-bottom: 30px; }
+.form-group { margin-bottom: 20px; }
+.form-group a {	line-height: 34px; }
+.fa { font-size: 16px; }
+.fa.login-with {font-size: 30px;margin: 0 5px;}
+.fa-medium { font-size: 20px; }
+.inline-block { display: inline-block; }
+.templatemo-login-form-2 {background-color: rgba(13,13,13,0.25);border-radius: 8px;color: #fff;font-weight: 300;max-width: 650px;padding: 0 30px 30px 30px;margin: 30px auto 0 auto;}
+.templatemo-login-form-2 h1 { color: #fff; margin-bottom: 40px; }
+.templatemo-login-form-2 a { color: #DBDBDB; }
+.templatemo-login-form-2 .form-control {background-color: rgba(83, 78, 78, 0.35);border: 1px solid rgba(255, 255, 255, 0.27);color: rgb(255,255,255);}
+.templatemo-login-form-2 .templatemo-input-icon-container .fa {	color: rgb(190, 190, 190); }
+.templatemo-login-form-2 .control-label { margin-bottom: 10px; }
+.templatemo-login-form-2 .btn {	width: 100%; }
+.templatemo-login-form-2 .btn-social { max-width: 220px; }
+.templatemo-login-form-2 label { font-weight: 400; }
+.templatemo-login-form-2 .templatemo-one-signin { border-right: 1px solid rgba(200, 200, 200, 0.5); }
+
+
